@@ -5,7 +5,12 @@ public class Basics_two {
         int evenNums;
 
         for(evenNums = 1; evenNums <= 50; evenNums++) {
+
+            if(evenNums % 2 == 0) {
+ 
             System.out.println(evenNums);
+
+            }
         }
     }
 }
